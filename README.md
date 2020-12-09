@@ -18,4 +18,8 @@ network commands:
                     https://apple.stackexchange.com/questions/314898/find-ip-address-of-ethernet-printer-when-location-is-home
                     by the way this command Identify broadcast address
                   
-          step 2b:
+           step 2b: arp -a
+                     by typing arp -a you display all the MAC addresses of recently resolved IP addresses.
+                    https://networkencyclopedia.com/arp-command/
+                    
+           step 3:
