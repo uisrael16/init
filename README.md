@@ -36,3 +36,6 @@ network commands:
                   
           step 5: dig slash16.org | grep SERVER | awk '{print $3}' | awk -F '[()]' '{print $2}' 
                   Identify the IP address of the DNS that responds to the following url: slash16.org
+                  
+          step 6: /var/run/resolv.conf
+                  this is how i get the complete path of the file that contains the IP address of the DNS server you’re using
