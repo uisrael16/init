@@ -11,4 +11,11 @@ network commands:
                    and -u (only list interfaces that are up). link is avaible below:
                    https://superuser.com/questions/203272/list-only-the-device-names-of-all-available-network-interfaces
                   
-           step 2: 
+           step 2a: ifconfig en0 | grep broadcast | awk '{ print $6 }' 
+                    this is the original command but I had to change it to 
+                    ifconfig en1 | grep broadcast | awk '{ print $6 }' reason being
+                    interface en0 does not exist. link is avaible below:
+                    https://apple.stackexchange.com/questions/314898/find-ip-address-of-ethernet-printer-when-location-is-home
+                    by the way this command Identify broadcast address
+                  
+          step 2b:
