@@ -34,4 +34,5 @@ network commands:
                   available from the link below:
                   https://stackoverflow.com/questions/6782658/how-to-get-default-gateway-in-mac-osx
                   
-          step 5: 
+          step 5: dig slash16.org | grep SERVER | awk '{print $3}' | awk -F '[()]' '{print $2}' 
+                  Identify the IP address of the DNS that responds to the following url: slash16.org
