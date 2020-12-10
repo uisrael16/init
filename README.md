@@ -43,3 +43,20 @@ network commands:
           step 7: nslookup slash16.org 8.8.8.8
                   Query an external DNS server on the slash16.org domain name (ie. : google 8.8.8.8)
                   https://quizlet.com/355888462/ft_init-flash-cards/
+
+          step 8: whois slash16.org | grep "Name Server"
+                  Find the provider of slash16.org
+                  
+          step 9: nslookup 42.fr 8.8.8.8
+                  Find the external IP of 42.fr
+                  https://quizlet.com/355888462/ft_init-flash-cards/
+                  
+           step 10: traceroute slash16.org
+                    Identify the network devices between y our computer and the slash16.org domain
+                    avaible from the link below:
+                    https://quizlet.com/355888462/ft_init-flash-cards/
+                   
+           step 11:
+                   
+           step 12: ipconfig getpacket en1 | grep server_identifier
+                    Find the IP that was assigned to you by dhcp server
