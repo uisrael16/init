@@ -34,4 +34,12 @@ network commands:
                   available from the link below:
                   https://stackoverflow.com/questions/6782658/how-to-get-default-gateway-in-mac-osx
                   
-          step 5: 
+          step 5: dig slash16.org | grep SERVER | awk '{print $3}' | awk -F '[()]' '{print $2}' 
+                  Identify the IP address of the DNS that responds to the following url: slash16.org
+                  
+          step 6: /var/run/resolv.conf
+                  this is how i get the complete path of the file that contains the IP address of the DNS server you’re using
+                  
+          step 7: nslookup slash16.org 8.8.8.8
+                  Query an external DNS server on the slash16.org domain name (ie. : google 8.8.8.8)
+                  https://quizlet.com/355888462/ft_init-flash-cards/
