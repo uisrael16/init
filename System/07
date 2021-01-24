@@ -1,0 +1,8 @@
+ps aux | grep -e /usr/sbin/sshd | grep -v grep | tr -s " " | cut -d " " -f2
+
+or
+
+cat /var/run/sshd.pid
+
+these commands Figure out the PID of the SSHD service.
+MORE INFO: https://stackoverflow.com/questions/6867669/getting-pid-of-sshd

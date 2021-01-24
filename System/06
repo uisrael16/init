@@ -1,0 +1,8 @@
+sudo /etc/init.d/ssh restart
+
+OR
+
+sudo service ssh restart
+
+For systemd based Ubuntu Linux 16.04/18.04/20.04 LTS or above server, execute:
+$ sudo systemctl restart ssh 
