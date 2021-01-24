@@ -1,0 +1,5 @@
+whoami
+
+Who Am I: whoami
+
+The whoami command is not as ridiculous as it may at first appear. It is useful, for example, when you have different usernames on several frequently used UNIX computers. You may invoke whoami to determine your current username and, hence, which computer you are using. You might also use whoami when sharing a terminal with other users. If the shared terminal has been left unattended, you can issue whoami to list the name of the user who is currently logged in. You may then locate that user and ask him or her to end the terminal session. In Open VMS, the corresponding command SHOW PROCESS returns the current user’s username, as well as other useful information; whoami returns only the username.

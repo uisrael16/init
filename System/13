@@ -1,0 +1,9 @@
+#the following ps command to display all running process:
+ ps -aux
+
+##  OR ##
+
+ ps aux | less
+
+# MORE INFO: https://www.cyberciti.biz/faq/show-all-running-processes-in-linux/
+

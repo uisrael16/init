@@ -1,0 +1,5 @@
+.ssh/authorized_keys
+
+What file contains the RSA keys of systems that are authorized to connect via SSH?
+
+more info: https://www.ssh.com/ssh/authorized-key

@@ -1,0 +1,5 @@
+fdisk -l
+
+## OR FOR LINUX ##
+
+sudo fdisk -l

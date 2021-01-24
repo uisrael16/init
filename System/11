@@ -1,0 +1,5 @@
+df -h
+
+Using ‘-h‘ parameter with (df -h) will show the file system disk space statistics in “human readable” format, means it gives the details in bytes, megabytes, and gigabyte.
+
+MORE INFO: https://www.tecmintsudo fdisk -l.com/how-to-check-disk-space-in-linux/

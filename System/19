@@ -1,0 +1,3 @@
+systemctl list-units --type service
+
+#MORE INFO: https://www.tecmint.com/chkconfig-command-examples/
