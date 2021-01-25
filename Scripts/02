@@ -1,0 +1,3 @@
+sudo userdel "username"
+
+#MORE INFO: https://www.cyberciti.biz/faq/linux-remove-user-command/
