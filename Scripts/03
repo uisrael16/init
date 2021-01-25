@@ -1,0 +1,3 @@
+sudo apt-get install cowsay
+
+cowsay -f gnu Tecmint is Best
