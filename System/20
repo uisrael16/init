@@ -1,0 +1,7 @@
+#You can use the awk or cut command to print only the user names list on your Linux system. Both are showing the same results.
+
+awk -F':' '{ print $1}' /etc/passwd
+#  or
+cut -d: -f1 /etc/passwd
+
+#MORE INFO: https://www.2daygeek.com/3-methods-to-list-all-the-users-in-linux-system/

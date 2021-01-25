@@ -1,0 +1,5 @@
+#To list the installed packages on your Ubuntu system use the following command:
+
+sudo apt list --installed
+
+#MORE INFO: https://linuxize.com/post/how-to-list-installed-packages-on-ubuntu/
