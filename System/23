@@ -1,0 +1,6 @@
+#the following commands will connect yourself as new user.
+#sudo useradd username
+#sudo passwd username
+#Retype new password if needed
+#log yourself out to change users 
+#sign in to a new user account 
