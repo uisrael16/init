@@ -1,0 +1,5 @@
+/etc/hosts
+
+#OR for other OS
+
+cat /etc/hosts
