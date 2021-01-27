@@ -63,13 +63,13 @@ network commands:
                     
            step 13:
                     
-           step 14: ls -l /etc/hosts
+           step 14: /etc/hosts
                     The /etc/hosts file (or equivalent) configures local host name to IP address mappings typically taking precedence over DNS resolution.                                                                                                                                                                                                          
                     If this file is maliciously modified,
                     it could cause the failure or compromise of security functions requiring name resolution, 
                     such as time synchronization, centralized authentication, and remote system logging.
                     avaible from the link below:
-                    https://www.stigviewer.com/stig/mac_osx_10.6_workstation/2012-01-30/finding/V-22325
-                    
+                    https://tldp.org/LDP/solrhe/Securing-Optimizing-Linux-RH-Edition-v1.3/chap9sec95.html
+                   
            step 15:
                     
