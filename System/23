@@ -1,6 +1,8 @@
-#the following commands will connect yourself as new user.
-#sudo useradd username
-#sudo passwd username
-#Retype new password if needed
-#log yourself out to change users 
-#sign in to a new user account 
+ssh remote_host
+#If your username is different on the remote system, you can specify it by using this syntax:
+ssh remote_username@remote_host
+sudo systemctl start sshsudo cp /etc/ssh/sshd_config{,.bak}
+sudo nano /etc/ssh/sshd_config
+connect to Port 22
+
+#MORE INFO: https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server
